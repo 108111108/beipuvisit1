@@ -1,0 +1,1314 @@
+header, body, footer{
+    background-color: rgb(255, 255, 255);
+    border: 0px; 
+    padding: 0px;
+}
+header {
+	background-color: rgba(239,155,72,1.00);
+    position: relative;
+    box-shadow: 5px 5px 10px rgb(142, 141, 141);
+    z-index: 1;
+    height: 150px;
+    margin-top: -5px;
+    padding: 5px 15px;
+	border: 0px;
+    
+}
+
+header a{
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+header a :hover{
+    
+    text-decoration: underline;
+    text-shadow: rgba(0,0,0,0.40);
+}
+.nav{
+    display: inline;
+    margin-right: 1vw;
+    padding: 20px 30px 20px 30px;
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 130px;
+}
+.nav a {
+    font-size: 25px;
+    padding: 0px 32px;
+    transition: color 0.2s ease-in;
+  }
+  
+  .nav a:hover {
+    background-color: #2C507A;
+    color: rgb(255, 255, 255);
+  }
+  
+
+
+.beipu{
+    height: 100vh;
+    background-image: url(images//北埔_200608_0024.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+    font-size: 30px;
+
+}
+.text-center1{
+    color: #5f6a62;
+    font-size: 20px;
+    font-family:  華康粗黑體(P);
+   text-align: center;
+
+}
+.text1{
+    color: aliceblue;
+    font-size: 90px;
+    font-family: 華康粗黑體(P);
+    margin-top: -500px;
+    text-align: left;
+    padding: 20px 5px 20px 50px;
+    margin-left: 10px;
+    text-shadow: 2px 1px 0px rgba(0,0,0,1.00);
+}
+.text1-1{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 華康粗黑體(P);
+    margin-top: 150px;
+    text-align: left;
+    margin-right: 50px;
+    text-shadow: 2px 1px 0px rgba(0,0,0,1.00);
+}
+
+.persimmon{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/persimmon.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+}
+.pertext{
+    color: aliceblue;
+    text-shadow: 3px 5px 3px rgba(0, 0, 0, 0.4);
+    font-size: 100px;
+    font-family: 華康粗黑體(P);
+    line-height: 0px;
+    text-align: left;
+    margin-left: 30px;
+}
+.per-1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-shadow: 2px 1px 0px rgb(0, 0, 0);
+    font-family: 華康粗黑體(p);
+    margin-top: 390px;
+    text-align: left;
+}
+
+
+
+.tour{
+    height: 235px;
+    background: linear-gradient(to top, #ffffff, rgba(239,155,72,1.00));
+    margin-top: -100px;
+
+}
+
+.tour-1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-shadow: 3px 1px 0px rgba(0, 0, 0);
+    font-family: 華康粗黑體(p);
+    margin-top: -70px;
+    text-align: center;
+}
+
+.tour1_img{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url(images/01.jpg);
+    border-radius: 30px;
+    
+}
+
+.tour2_img{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url(images/02.jpg);
+    border-radius: 30px;
+    
+}
+.tour3_img{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url(images/03.jpg);
+    border-radius: 30px;
+    
+}
+.tour4_img{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url(images/04.jpg);
+    border-radius: 30px;
+    
+}
+.tour5_img{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url(images/05.jpg);
+    border-radius: 30px;
+    
+}
+.tour6_img{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url(images/06.jpg);
+    border-radius: 30px;
+    
+}
+
+
+
+
+
+.tour1_img:hover{
+    background-image: url(images/01-2.jpg);
+}
+.tour2_img:hover{
+    background-image: url(images/02-2.jpg);
+}
+.tour3_img:hover{
+    background-image: url(images/03-2.jpg);
+}
+.tour4_img:hover{
+    background-image: url(images/04-2.jpg);
+}
+.tour5_img:hover{
+    background-image: url(images/05-2.jpg);
+}
+
+.tour6_img:hover{
+    background-image: url(images/07-2.jpg);
+}
+
+.oldstreet{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/101.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+
+}
+.bpstreet_text{
+    color: #246134;
+    font-family: 華康粗黑體(p);
+    font-size: 55px;
+    margin-top: 0px;
+    position: relative;
+}
+    
+.bpstreet2_text{
+    color: #626262;
+    font-family: 華康粗黑體(p);
+    font-size: 20px;
+    margin-top: 35px;
+    position: relative;
+}
+
+.bpstime{
+    width: 1400px;
+    height: 420px ;
+    border-radius: 10px;
+    background-color: #e9e9e9;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    right: 800px;
+    margin-top: 100px;
+    padding: 5px 5px 10px 5px;
+   
+   
+}
+.bpstime1{
+    
+    width: 110px;
+    border-radius: 10px;
+    background-color: rgba(239,155,72,1.00);
+    color: #ffffff;
+    font-family: 華康粗黑體(p);
+    font-size: 25px;
+    margin-top: 20px;
+    position: relative;
+    left: 30px;
+    padding: 5px 5px;
+    
+   
+}
+.bpstreet3_text{
+    color: #626262;
+    font-family: 華康粗黑體(p);
+    font-size: 18px;
+    margin-top: 40px;
+    position: relative;
+    right: 00px;
+   
+    
+}
+
+.col-xl-9{
+    position: relative;
+    left: 80px;
+    
+}
+.googlemap{
+    position: absolute;
+    top: 18px;
+    right: 100px;
+    border-radius: 30px;
+    
+}
+.googlemap2{
+    position: absolute;
+    top: 18px;
+    right: 100px;
+    border-radius: 30px;
+    
+}
+
+.foodtext{
+    color: #ffffff;
+    font-size: 45px;
+    font-family: 華康粗黑體(p);
+    text-shadow: 3px 2px 0px #000000;
+}
+
+.foodtext1{
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 華康粗黑體(p);
+    text-shadow: 3px 5px 3px #000000;
+}
+
+.f01_img{
+    width: 300px;
+   height: 300px;
+    background-image: url(images/f01.jpg)
+}
+.f02_img{
+    width: 300px;
+    height: 300px;
+    background-image: url(images/f02.jpg)
+}
+.f03_img{
+    width: 300px;
+    height: 300px;
+    background-image: url(images/f03.jpg)
+}
+.f04_img{
+    width: 300px;
+    height: 300px;
+    background-image: url(images/f04.jpg)
+}
+
+.f05_img{
+    width: 300px;
+    height: 300px;
+    background-image: url(images/f05.jpg)
+}
+.f06_img{
+    width: 300px;
+    height: 300px;
+    background-image: url(images/f06.jpg)
+}
+.f07_img{
+    width: 300px;
+    height: 300px;
+    background-image: url(images/f07.jpg)
+}
+.f08_img{
+    width: 300px;
+    height: 300px;
+    background-image: url(images/f08.jpg)
+}
+.f09_img{
+    width: 300px;
+    height: 300px;
+    background-image: url(images/f09.jpg)
+}
+.f10_img{
+    width: 300px;
+    height: 300px;
+    background-image: url(images/f10.jpg)
+}
+.f11_img{
+    width: 300px;
+    height: 300px;
+    background-image: url(images/f11.jpg)
+}
+.f12_img{
+    width: 300px;
+    height: 300px;
+    background-image: url(images/f12.jpg)
+}
+.f01_img:hover{
+    background-image: url(images/f01-2.jpg);
+}
+.f02_img:hover{
+    background-image: url(images/f02-2.jpg);
+}
+.f03_img:hover{
+    background-image: url(images/f03-2.jpg);
+}
+.f04_img:hover{
+    background-image: url(images/f04-2.jpg);
+}
+.f05_img:hover{
+    background-image: url(images/f05-2.jpg);
+}
+.f06_img:hover{
+    background-image: url(images/f06-2.jpg);
+}
+.f07_img:hover{
+    background-image: url(images/f07-2.jpg);
+}
+.f08_img:hover{
+    background-image: url(images/f08-2.jpg);
+}
+.f09_img:hover{
+    background-image: url(images/f09-2.jpg);
+}
+.f10_img:hover{
+    background-image: url(images/f10-2.jpg);
+}
+.f11_img:hover{
+    background-image: url(images/f11-2.jpg);
+}
+.f12_img:hover{
+    background-image: url(images/f12-2.jpg);
+}
+.hakkaflower{
+    height: 50vh;
+    width: 100%;
+    background-image:url(images/hakka_flower.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    margin-top: 50px;
+    align-items: center;
+    justify-items: center;
+
+}
+.pengcake{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/f001.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+
+}
+.gourmetfood{
+    width: 1400px;
+    height: 620px ;
+    border-radius: 10px;
+    background-color: #e9e9e9;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    right: 800px;
+    margin-top: 100px;
+    padding: 5px 5px 5px 5px ;
+}
+
+.bpstel a {
+
+    border: 1px solid rgb(225, 94, 23);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+.cakeshop{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/f002.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+
+}
+.thirtynine{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/f003.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+
+}
+.blockcake{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/f004.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+
+}
+   
+.noodle{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/f005.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+
+}
+.teamarket{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/f006.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+}
+.Persimmoncake{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/f007.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+}
+.bao{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/f008.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+}
+.lady{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/f009.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+}
+.zoetea{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/f0010.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+}
+.fragrant{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/f0011.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+}
+.zoetsu{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/f0012.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+}
+.hotel1_img{
+    width: 300px;
+    height:300px ;
+    background-image: url(images/hotel1.jpg);
+
+}
+.hotel1_img:hover{
+    background-image: url(images/hotel101.jpg);
+}
+.hotel2_img{
+    width: 300px;
+    height:300px ;
+    background-image: url(images/hotel2.jpg);
+
+}
+.hotel2_img:hover{
+    background-image: url(images/hotel201.png);
+}
+
+.hotel3_img{
+    width: 300px;
+    height: 300px;
+    background-image: url(images/hotel3.jpg);
+}
+.hotel3_img:hover{
+    background-image: url(images/hotel301.jpg);
+}
+.hotel4_img{
+    width: 300px;
+    height: 300px;
+    background-image: url(images/hotel4.jpg);
+
+}
+.hotel4_img:hover{
+    background-image: url(images/hotel401.jpg);
+
+}
+.hotel5_img{
+    width: 300px;
+    height: 300px;
+    background-image: url(images/hotel5.jpg);
+
+}
+.hotel5_img:hover{
+    background-image: url(images/hotel501.jpg);
+
+}
+.hotel6_img{
+    width: 300px;
+    height: 300px;
+    background-image: url(images/hotel6.jpg);
+
+}
+.hotel6_img:hover{
+    background-image: url(images/hotel601.jpg);
+
+}
+
+.hotel7_img{
+    width: 300px;
+    height: 300px;
+    background-image: url(images/hotel7.jpg);
+
+}
+.hotel7_img:hover{
+    background-image: url(images/hotel701.jpg);
+
+}
+.hotel8_img{
+    width: 300px;
+    height: 300px;
+    background-image: url(images/hotel8.jpg);
+
+}
+.hotel8_img:hover{
+    background-image: url(images/hotel801.jpg);
+
+}
+
+.history_img{
+    width: 100%;
+    height: 400px;
+    background-image: url(images/history1.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+}
+.history2_img{
+    
+    height: 400px;
+    background-image: url(images/history2.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+}
+.history1{
+    
+    height: 400px;
+    background-image: linear-gradient(to right, rgba(239,155,72,1.00), #ffffff);
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 華康粗黑體(p);
+    text-shadow: 2px 1px 5px  rgb(0, 0, 0) ;
+   
+}
+
+.history2{
+    width: 900px;
+    height: 400px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(239,155,72,1.00));
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 華康粗黑體(p);
+    text-shadow: 3px 1px 3px  rgb(0, 0, 0) ;
+    
+}
+
+
+.history_text1{
+    font-size: 10px;
+    font-family: 華康粗黑體(p);
+    text-shadow: 3px 1px   rgb(0, 0, 0) ;
+}
+.history_intext1{
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 華康粗黑體(p);
+    
+}
+
+.history3{
+    height: 2400px;
+    width: 1920px;
+    background-image:url(images/history3.jpg);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    justify-items: center;
+}
+.festival{
+    width: 1920px;
+    height: 100px;
+    font-size: 80px;
+    align-items: center;
+    justify-items: center;
+    font-family: 云峰飞云体;
+    color: #ffffff;
+    background-color: rgb(105, 222, 240);
+}
+
+.traditional_text{
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: -1800px;
+    position: relative;
+    right: -150px;
+    text-shadow: 3px 1px rgb(0, 0, 0);
+}
+.traditional_text2{
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: -1300px;
+    position: relative;
+    right: -150px;
+    text-shadow: 3px 1px rgb(0, 0, 0);
+}
+.beipumap{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/beipumap.jpg);
+    background-repeat: no-repeat;
+    box-sizing: cover;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+}
+.traditional_in_txt{
+    font-size: 23px;
+    color: #ffffff;
+    margin-top: -1400px;
+    position: relative;
+    right: -100px;
+    text-shadow: 3px 1px rgb(0, 0, 0);
+}
+.traditional2_in_txt{
+    font-size: 23px;
+    color: #ffffff;
+    margin-top: 0px;
+    position: relative;
+    right: -200px;
+    text-shadow: 3px 1px rgb(0, 0, 0);
+}
+.traditional_text3{
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 400px;
+    position: relative;
+    right: -150px;
+    text-shadow: 3px 1px rgb(0, 0, 0);
+}
+.traditional3_in_txt{
+    font-size: 23px;
+    color: #ffffff;
+    margin-top: 0px;
+    position: relative;
+    right: -200px;
+    text-shadow: 3px 1px rgb(0, 0, 0);
+}
+
+.data_tittle{
+    color: #ffffff;
+    font-size: 70px;
+    text-shadow: 3px 1px 7px rgb(0, 0, 0);
+    font-family: 華康粗黑體(p);
+}
+.transportation{
+    width: 1400px;
+    height: 540px ;
+    border-radius: 10px;
+    background-color: #e9e9e9;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+   padding: 5px 5px 10px 5px;
+   
+    
+    
+}
+.transportation2{
+    width: 1400px;
+    height: 1100px ;
+    border-radius: 10px;
+    background-color: #e9e9e9;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+   padding: 5px 5px 10px 5px;
+   
+    
+    
+}
+
+
+.traditional_text{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    left: 30px;
+}
+.hotel8{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/hotel8-1.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+}
+.hotel1{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/hotel1.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+}
+.hotel2{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/hote2-1.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+}
+.hotel3{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/hotel3-1.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+}
+.hotel4{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/hotel4.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+}
+.hotel5{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/hotel5.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+}
+.hotel6{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/hotel6-1.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+}
+.hotel7{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/hotel7-1.png);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-items: center;
+}
+footer{
+    background-color: rgba(239,155,72,1.00);
+    height: 50px;
+    
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+
+}
+.menu{
+    display: none;
+}
+.menuBtn {
+    cursor: pointer;
+    position: relative;
+    width: 48px;
+    height: 88px;
+    top: -52px;
+    right: 16px;
+    display: none;
+  }
+  
+  .menuBtn::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+
+    height: 2px;
+    width: 36px;
+    box-shadow: 0px 12px 0px rgb(255, 255, 255), 0px -12px 0px rgb(255, 255, 255);
+    right: 0;
+  }
+  
+  #menu_control {
+    display:none;
+  }
+  
+/*響應式網頁*/
+@media screen and (max-width: 768px) {
+   
+    .nav {
+        position: absolute;
+        flex-direction: column;
+        background-color: #000000b3;
+        top: 94px;
+        width: 40%;
+        height: calc(100vh - -230px);
+        padding: 20px;
+        right: -100%;
+        transition: right 0.8s ease-in-out;
+    
+    }
+    header img{
+        left: 40%;
+        transform: translateX(50%);
+        width: 200px;
+        height: 100px;
+        margin-top: 26px;
+    }
+    .nav a{
+        font-size: 18px ;
+        color:#ffffff;
+        padding: 20px 32px;
+    }
+    .menuBtn {
+        display: block;
+      }
+      #menu_control:checked ~ .nav {
+        right: 0px;
+      }
+    .beipu{
+        background: url(images/北埔_200608_0024.jpg) no-repeat;
+        height: 800px;/*自訂*/
+        background-position:center center;
+      }
+    .persimmon{
+        background: url(images/persimmon.png) no-repeat;
+        height: 500px;/*自訂*/
+        background-position:center center;
+    }
+    .oldstreet{
+        background: url(images/101.png) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+    }
+    .pengcake{
+        background: url(images/f001.png) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+    }
+    .cakeshop{
+        background: url(images/f002.png) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+    }
+    .thirtynine{
+        background: url(images/f003.png) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+    }
+    .blockcake{
+        background: url(images/f004.png) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+    }
+    .noodle{
+        background: url(images/f005.png) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+    }
+    .teamarket{
+        background: url(images/f006.png) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+    }
+    .Persimmoncake{
+        background: url(images/f007.png) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+    }
+    .bao{
+        background: url(images/f008.png) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+    }
+    .lady{
+        background: url(images/f009.png) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+    }
+    .zoetea{
+        background: url(images/f0010.png) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+    }
+    .fragrant{
+        background: url(images/f0011.png) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+    }
+    .zoetsu{
+        background: url(images/f0012.png) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+    }
+    .hotel1{
+        background: url(images/hotel1.png) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+    }
+    .hotel2{
+        background: url(images/hote2-1.png) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+    }
+    .hotel3{
+        background: url(images/hotel3-1.png) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+    }
+    .hotel4{
+        background: url(images/hotel4.png) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+    }
+    .hotel5{
+        background: url(images/hotel5.png) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+    }
+    .hotel6{
+        background: url(images/hotel6-1.png) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+    }
+    .hotel7{
+        background: url(images/hotel7-1.png) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+    }
+    .hotel8{
+        background: url(images/hotel8-1.png) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+    }
+    .beipumap{
+        background: url(images/beipumap.jpg) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+    }
+    .hakkaflower{
+        background: url(images/hakka_flower.png) no-repeat; 
+        height: 500px;/*自訂*/
+        background-position:center center;
+    }
+    .tour1_img{
+        width: 350px;
+        height: 350px;
+        background-image: url(images/01.jpg);
+        
+    }
+    .tour1_img:hover{
+        width: 350px;
+        height: 350px;
+        background-image: url(images/01-2.jpg);
+
+    }
+    .tour2_img{
+        width: 350px;
+        height: 350px;
+        background-image: url(images/02.jpg);
+    }
+    .tour2_img:hover{
+        width: 350px;
+        height: 350px;
+        background-image: url(images/02-2.jpg);
+
+    }
+    .tour3_img{
+        width: 350px;
+        height: 350px;
+        background-image: url(images/03.jpg);
+    }
+    .tour4_img{
+        width: 350px;
+        height: 350px;
+        background-image: url(images/04.jpg);
+    }
+    .tour5_img{
+        width: 350px;
+        height: 350px;
+        background-image: url(images/05.jpg);
+    }
+    .tour6_img{
+        width: 350px;
+        height: 350px;
+        background-image: url(images/06.jpg);
+    }
+    
+    .traditional_in_txt{
+        font-size: 15px;
+    }
+    .traditional_text{
+        font-size: 20px;
+    }
+    .transportation2{
+        font-size: 12px;
+        height: 1200px;
+        margin-top: 90px;
+    }
+
+    .header a{
+        font-size: 10px;
+        color: #246134;
+    }
+    .beipu img{
+        width: 100px;
+        
+    }
+    .text1-1{
+        font-size: 15px;
+    }
+    .text1{
+        font-size: 30px;
+    }
+    .beipu img{
+        width: 100%;
+    }
+    .card-body{
+        font-size: 20px;
+    }
+    .pertext{
+        font-size: 25px;
+    }
+    .per-1{
+        font-size: 12px;
+        margin-top: 100px;
+    }
+    .tour-1{
+        font-size: 60px;
+    }
+    
+    .col-xl-9{
+       right: 950px;
+    }
+    .bpstime{
+        position: relative;
+        right: -20px;
+        height: 1050px;
+        width: 420px;
+      
+    }
+    .gourmetfood{
+        position: relative;
+        right: -20px;
+        height: 1050px;
+        width: 420px;
+    }
+    .history1{
+        width: 480px;
+        height: 300px;
+    }
+    .history2{
+        width: 480px;
+        height: 600px;
+        margin-top: -200px;
+    }
+    .history_intext1{
+        font-size: 20px;
+    }
+    .foodtext{
+        font-size: 20px;
+    }
+    .history_img{
+        background: url(images/history1.png) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+        margin-top: -230px;
+    }
+    .history2_img{
+        background: url(images/history2.png) no-repeat; 
+        height: 800px;/*自訂*/
+        background-position:center center;
+        margin-top: -400px;
+    }
+    .history3{
+        background: url(images/history3.jpg) no-repeat; 
+        height: 2800px;/*自訂*/
+        width: 500px;
+        background-position:center center;
+        margin-top: -200px;
+    }
+    .festival{
+        width: 500px;
+    }
+    .traditional_text{
+        font-size: 35px;
+    }
+    .traditional_in_txt{
+        position: relative;
+        font-size: 15px;
+       right: 30px;
+    }
+    .traditional_text2{
+        font-size: 35px;
+        
+    }
+    .traditional2_in_txt{
+        position: relative;
+        font-size: 15px;
+       right: -10px;
+    }
+    
+    .traditional_text3{
+        font-size: 35px;
+        margin-top: 80px;
+    }
+    .traditional3_in_txt{
+        position: relative;
+        font-size: 15px;
+       right: -10px;
+       margin-top: 0px;
+    }
+    
+   .googlemap{
+    width: 70px;
+    height: 100px;
+    margin-top: 630px;
+    margin-right: 241px;
+   }
+   .googlemap2{
+   width: 20%;
+    height: 80px;
+    margin-top: 0px;
+    margin-right: 320px;
+    background-position:center center;
+   }
+}
+    
