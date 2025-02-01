@@ -1140,6 +1140,9 @@ footer{
         background-image: url(images/01-2.jpg);
 
     }
+    .bpstime1{
+	font-size: 20px;
+    }
     .tour2_img{
         width: 350px;
         height: 350px;
@@ -1222,7 +1225,7 @@ footer{
         position: relative;
         right: -20px;
         height: 1050px;
-        width: 420px;
+        width: 410px;
       
     }
     .gourmetfood{
@@ -1298,9 +1301,9 @@ footer{
     }
     
    .googlemap{
-    width: 70px;
+    width: 60px;
     height: 100px;
-    margin-top: 630px;
+    margin-top: 640px;
     margin-right: 241px;
    }
    .googlemap2{
