@@ -1251,6 +1251,10 @@ footer{
     .foodtext{
         font-size: 20px;
     }
+     .bpstreet3_text{
+        position: relative;
+        right: 30px;
+    }
     .history_img{
         background: url(images/history1.png) no-repeat; 
         height: 800px;/*自訂*/
@@ -1306,7 +1310,7 @@ footer{
     width: 60px;
     height: 100px;
     margin-top: 640px;
-    margin-right: 241px;
+    margin-right: 245px;
    }
    .googlemap2{
    width: 20%;
