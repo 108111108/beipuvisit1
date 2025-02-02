@@ -978,8 +978,8 @@ footer{
         flex-direction: column;
         background-color: #000000b3;
         top: 94px;
-        width: 35%;
-        height: calc(100vh - -240px);
+        width: 36%;
+        height: calc(100vh - -300px);
         padding: 20px;
         right: -100%;
         transition: right 0.8s ease-in-out;
