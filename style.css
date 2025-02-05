@@ -1232,7 +1232,7 @@ footer{
     }
     .gourmetfood{
         position: relative;
-        right: 0px;
+        right: -10px;
         height: 1150px;
         width: 420px;
     }
