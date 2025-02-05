@@ -1232,7 +1232,7 @@ footer{
     }
     .gourmetfood{
         position: relative;
-        right: -2px;
+        right: 0px;
         height: 1150px;
         width: 420px;
     }
@@ -1310,7 +1310,7 @@ footer{
     width: 60px;
     height: 100px;
     margin-top: 830px;
-    margin-right: 190px;
+    margin-right: 290px;
    }
    .googlemap2{
    width: 20%;
