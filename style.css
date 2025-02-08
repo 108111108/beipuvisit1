@@ -1225,8 +1225,8 @@ footer{
     }
     .bpstime{
         position: relative;
-        right: -20px;
-        height: 1050px;
+        right: 10px;
+        height: 1250px;
         width: 410px;
       
     }
@@ -1244,6 +1244,9 @@ footer{
         width: 480px;
         height: 600px;
         margin-top: -200px;
+    }
+    .bpstreet3_text{
+        right: 50px;
     }
     .history_intext1{
         font-size: 20px;
